@@ -1,0 +1,62 @@
+.content {
+  height: 90vh;
+  width: 100%;
+  background-color: #eaedf0;
+}
+
+.login-bg {
+  height: 75%;
+  background: url(../assets/images/Map.png) no-repeat center;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  display: flex;
+}
+
+.login-text-block {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.login-card-block {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-card {
+  background: #ffffff;
+  width: 30%;
+  height: 73%;
+  box-shadow: 0 20px 20px 0;
+  position: absolute;
+  top: 8vh;
+  right: 15vh;
+}
+
+.text-bg {
+  height: 25%;
+  background: url(../assets/images/Bg.jpg) no-repeat bottom;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.footer {
+  height: 10vh;
+  width: 100%;
+}
+
+.footer-design {
+  border-top: 3vh solid #00030a;
+  border-right: 4vh solid transparent;
+  position: absolute;
+  right: 40vh;
+}
