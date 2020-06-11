@@ -1,7 +1,22 @@
 <div class="content">
   <div class="login-bg">
     <div class="login-text-block">
-
+      <div class="logo">
+        <img src="assets/images/logo.png">
+      </div>
+      <div class="text-content">
+        <p class="title-text">The Joint Supplier Registration System (JSRS) is</p>
+        <p class="title-text">a "single window" registration and certification system.</p>
+      </div>
+      <div class="text-lists">
+        <div *ngFor="let l of lists" class="list">
+          <div class="l-icon"></div>
+          <div class="l-text">
+            <p class="text">{{l.text}}</p>
+            <p class="hint">{{l.hint}}</p>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="login-card-block">
       <div class="login-card">
@@ -16,5 +31,20 @@
 
 <div class="footer">
   <div class="footer-design"></div>
+  <div class="footer-content">
+    <div class="left">
+      <div class="footer-texts">
+        <div>Terms of Service</div>
+        <div>Privacy Policy</div>
+        <div>Help Center</div>
+      </div>
+      <div class="icons">
+        <img *ngFor="let i of icons" [title]="i.label" [src]="i.icon">
+      </div>
+    </div>
+    <div class="right">
+      <div class="right-text">All Rights Reserserved @ 2019. Design & Developed by <span style="color: #f58628">business</span><span style="color: #72a6d0">gateways</span></div>
+    </div>
+  </div>
 
 </div>

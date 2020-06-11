@@ -1,5 +1,5 @@
 .content {
-  height: 90vh;
+  height: 92vh;
   width: 100%;
   background-color: #eaedf0;
 }
@@ -18,8 +18,10 @@
   width: 60%;
   height: 100%;
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 0 20vh;
 }
 
 .login-card-block {
@@ -50,7 +52,7 @@
 }
 
 .footer {
-  height: 10vh;
+  height: 8vh;
   width: 100%;
 }
 
@@ -58,5 +60,93 @@
   border-top: 3vh solid #00030a;
   border-right: 4vh solid transparent;
   position: absolute;
-  right: 40vh;
+  right: 28vh;
+}
+
+.text-content {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.logo img {
+  width: 45%;
+  margin-bottom: 2vh;
+}
+
+.title-text {
+  margin: 0;
+  color: #515254;
+}
+
+.text-lists {
+  font-size: 19px;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  margin: 2vh 0;
+}
+
+.l-icon {
+  height: 5vh;
+  width: 5vh;
+  margin-right: 2vh;
+  background: #92b9e2;
+  border-radius: 100%;
+  display: inline-block;
+}
+
+.l-text .text {
+  font-size: 19px;
+  font-weight: 500;
+  margin: 0;
+  color: #515254;
+}
+
+.l-text .hint {
+  font-size: 15px;
+  font-weight: 100;
+  margin: 0;
+  color: #989a9a;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.left,
+.right {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons,
+.footer-texts {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.icons {
+  width: 15%;
+}
+
+.footer-texts {
+  width: 50%;
+  font-size: 12px;
+}
+
+.icons img {
+  width: 15%;
+  cursor: pointer;
+}
+
+.right .text {
+  font-size: 13px;
 }
