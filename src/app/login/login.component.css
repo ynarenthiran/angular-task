@@ -1,0 +1,64 @@
+.login {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+p {
+  font-size: 18px;
+  color: #0f419c;
+}
+
+form {
+  width: 100%;
+}
+
+.mat-form-field {
+  width: 100%;
+  margin: 2vh 0;
+}
+
+.mat-form-field-prefix {
+  margin-right: 1vh;
+  width: 6% !important;
+}
+
+.mat-form-field-infix {
+  border: 0 !important;
+}
+
+.fp,
+.register {
+  color: #1e4b9c;
+}
+
+.login-button {
+  width: 100%;
+  background-color: #f58728;
+  color: #ffffff;
+  margin: 2vh 0 !important;
+}
+
+.register-button {
+  width: 100%;
+  border: 1px solid;
+  border-radius: 4px;
+  padding: 1vh;
+  text-align: center;
+  margin: 2vh 0;
+}
+
+.or, .help {
+  width: 100%;
+  margin: 1vh 0;
+  text-align: center;
+}
+
+.help {
+  margin: 8vh 0 0;
+}
+
+.mat-stroked-button[disabled] {
+  cursor: not-allowed !important;
+}

@@ -1,0 +1,22 @@
+<div class="login">
+  <p>Login to your account</p>
+  <form>
+    <mat-form-field>
+      <mat-label>Username/E-mail Id</mat-label>
+      <div matPrefix><img src="assets/images/username.svg" style="width: 100%;"></div>
+      <input matInput type="text" [(ngModel)]="username" [ngModelOptions]="{standalone: true}">
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Password</mat-label>
+      <div matPrefix><img src="assets/images/password.svg" style="width: 100%;"></div>
+      <input matInput type="password" [(ngModel)]="password" [ngModelOptions]="{standalone: true}">
+      <a class="fp" [routerLink]="['/forgot-password']" matSuffix>Forgot?</a>
+    </mat-form-field>
+    <button mat-stroked-button [disabled]="!username || !password" [routerLink]="['/home']" class="login-button">Login</button>
+    <div class="or">or</div>
+    <div class="register-button">
+      Become a JSRS supplier? <a class="register" [routerLink]="['/register']">Register Now</a>
+    </div>
+    <div class="help">Can't sign in? Get help here</div>
+  </form>
+</div>
